@@ -26,7 +26,7 @@ public class FlappyBird extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 		gsm = new GameStateManager();
-		//music = Gdx.audio.newMusic(Gdx.files.internal(".mp3"));
+		music = Gdx.audio.newMusic(Gdx.files.internal("music.mp3"));
 		music.setLooping(true);
 		music.setVolume(0.5f);
 		music.play();
